@@ -1,0 +1,37 @@
+{
+  "feature_cols_reg": [
+    "title_length",
+    "body_length",
+    "body_length_bucket",
+    "has_code_block",
+    "num_tags",
+    "post_hour_sin",
+    "post_hour_cos",
+    "asker_reputation_log",
+    "asker_upvote_count_log",
+    "asker_downvote_count_log",
+    "asker_account_age_days_log",
+    "is_new_asker",
+    "asker_reputation_missing",
+    "asker_upvote_count_missing",
+    "asker_downvote_count_missing",
+    "asker_account_age_days_missing",
+    "tag_target_score",
+    "recent_platform_answer_rate",
+    "recent_platform_median_speed"
+  ],
+  "categorical_features_reg": [
+    "body_length_bucket"
+  ],
+  "quantile_alphas": {
+    "lower": 0.1,
+    "median": 0.5,
+    "upper": 0.9
+  },
+  "log_clip_bounds": [
+    0.016529301951210565,
+    8.764696835256636
+  ],
+  "interval_coverage_check": 0.8140518619696536,
+  "crossing_violation_rate": 5.8236184788708535e-05
+}

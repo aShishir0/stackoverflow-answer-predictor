@@ -1,0 +1,41 @@
+{
+  "feature_cols": [
+    "title_length",
+    "body_length",
+    "body_length_bucket",
+    "has_code_block",
+    "num_tags",
+    "post_hour_sin",
+    "post_hour_cos",
+    "asker_reputation_log",
+    "asker_upvote_count_log",
+    "asker_downvote_count_log",
+    "asker_account_age_days_log",
+    "is_new_asker",
+    "asker_reputation_missing",
+    "asker_upvote_count_missing",
+    "asker_downvote_count_missing",
+    "asker_account_age_days_missing",
+    "tag_target_score",
+    "recent_platform_answer_rate"
+  ],
+  "categorical_features": [
+    "body_length_bucket"
+  ],
+  "final_threshold": 0.56,
+  "body_length_bucket_edges": [
+    37.0,
+    573.0,
+    940.0,
+    1444.0,
+    2418.0,
+    115918.0
+  ],
+  "body_length_bucket_categories": [
+    "(1444.0, 2418.0]",
+    "(2418.0, 115918.0]",
+    "(36.999, 573.0]",
+    "(573.0, 940.0]",
+    "(940.0, 1444.0]"
+  ]
+}
