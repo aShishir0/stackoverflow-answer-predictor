@@ -12,6 +12,8 @@ Expected files inside MODELS_DIR (default: ../models relative to this file):
   tag_rate_lookup.json
   platform_context.json
 """
+from dotenv import load_dotenv
+load_dotenv()
 
 import json
 import os
