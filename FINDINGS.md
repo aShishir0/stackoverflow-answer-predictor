@@ -26,7 +26,7 @@ Twelve rows had a negative `hours_to_first_answer`, a small data anomaly affecti
 
 This was the most important investigative finding in the project. Two separate phenomena show up in the same chart, and they needed two different diagnoses and two different fixes.
 
-![Answer rate by day posted, full trimmed window](docs/images/ans_rate_by_day.png)
+![Answer rate by day posted, full trimmed window](docs/images/answer_rate_by_day_full.png)
 *Exported from the notebook, the daily rate plot over the trimmed date range.*
 
 ### 3a. A real structural break around September 2021
